@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MCP1407-E/P
+#
+DEF MCP1407-E/P U 0 40 Y Y 1 L N
+F0 "U" -197 598 50 H V L BNN
+F1 "MCP1407-E/P" -220 -873 50 H V L BNN
+F2 "DIP254P762X432-8" 0 0 50 H I L BNN
+F3 "17M0581" 0 0 50 H I L BNN
+F4 "1317124" 0 0 50 H I L BNN
+F5 "MCP1407-E/P" 0 0 50 H I L BNN
+F6 "Microchip" 0 0 50 H I L BNN
+F7 "DIP-8" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 500 -500 -700 N
+P 2 0 0 16 -500 -700 500 -700 N
+P 2 0 0 16 500 -700 500 500 N
+P 2 0 0 16 500 500 -500 500 N
+X VDD_2 1 -700 300 200 R 40 40 0 0 W 
+X VDD 8 -700 200 200 R 40 40 0 0 W 
+X INPUT 2 -700 0 200 R 40 40 0 0 I 
+X NC 3 -700 -200 200 R 40 40 0 0 N 
+X GND_2 4 -700 -400 200 R 40 40 0 0 P 
+X GND 5 -700 -500 200 R 40 40 0 0 P 
+X ~OUT_2 6 700 300 200 L 40 40 0 0 O 
+X ~OUT 7 700 200 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

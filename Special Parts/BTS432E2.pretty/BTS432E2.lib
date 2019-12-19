@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BTS432E2
+#
+DEF BTS432E2 U 0 40 Y Y 1 L N
+F0 "U" 0 25 50 H V L BNN
+F1 "BTS432E2" 0 -675 50 H V L BNN
+F2 "TO170P440X1000X1975-5B" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 0 0 0 -600 N
+P 2 0 0 10 0 -600 700 -600 N
+P 2 0 0 10 700 -600 700 0 N
+P 2 0 0 10 700 0 0 0 N
+X VBB 3 -200 -100 200 R 40 40 0 0 W 
+X ST 4 -200 -300 200 R 40 40 0 0 C 
+X IN 2 -200 -500 200 R 40 40 0 0 I 
+X GND 1 900 -100 200 L 40 40 0 0 W 
+X OUT 5 900 -500 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
